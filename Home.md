@@ -1,4 +1,4 @@
-See also documentation on [ace.ajax.org](http://ace.ajax.org)
+See also documentation on [ace.c9.io](http://ace.c9.io)
 
 [[Building ace]]
 
