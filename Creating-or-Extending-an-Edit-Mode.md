@@ -122,7 +122,7 @@ For grouped regex, token can be a String, in which case all matched groups are g
     return ["keyword", "constant"];
   },
   regex: "(.)(world)"
-} // aworld -> constant(a), keyword(world) :: bworld -> keyword(a), constant(world)
+} // aworld -> constant(a), keyword(world) :: bworld -> keyword(b), constant(world)
 ```
     
 If a rule is matched which has a next state set, then the tokeniser will move into that new state. Rules are prioritised based on their position within the ruleset, and the usual matching rules for regex apply. (eg of the rules `(a)(b)` and `.+` applied to the string `cab`, `.+` will match  even if `(a)(b)` is higher priority).
