@@ -30,6 +30,7 @@ here's a list of all supported options. Where not indicated otherwise option val
     useSoftTabs: boolean (defaults to false)
     navigateWithinSoftTabs: boolean (defaults to false)
     enableMultiselect: boolean   # on by default
+    enableAutoIndent: boolean
  
 ### renderer options
  
@@ -47,6 +48,7 @@ here's a list of all supported options. Where not indicated otherwise option val
     showLineNumbers: boolean (defaults to true)
     showGutter: boolean (defaults to true)
     displayIndentGuides: boolean (defaults to true)
+    highlightIndentGuides: boolean
     fontSize: number or css font-size string
     fontFamily: css font-family value
     // resize editor based on the contents of the editor until the number of lines reaches maxLines
@@ -56,6 +58,9 @@ here's a list of all supported options. Where not indicated otherwise option val
     scrollPastEnd: number|boolean
     fixedWidthGutter: boolean (defaults to false)
     theme: path to a theme e.g "ace/theme/textmate"
+    customScrollbar: boolean
+    hasCssTransforms: boolean
+    maxPixelHeight: number
  
 
 ### mouseHandler options
@@ -73,8 +78,11 @@ here's a list of all supported options. Where not indicated otherwise option val
     newLineMode: "auto" | "unix" | "windows"
     useWorker: boolean
     useSoftTabs: boolean
+    indentedSoftWrap: boolean
+    navigateWithinSoftTabs: boolean
     tabSize: number
-    wrap: boolean|number
+    wrap: "off"|"free"|"printmargin"|boolean|number
+    wrapMethod: 'code' | 'text' | 'auto'
     foldStyle: "markbegin"|"markbeginend"|"manual"
     mode: path to a mode e.g "ace/mode/text"
  
