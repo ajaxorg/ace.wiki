@@ -31,6 +31,7 @@ here's a list of all supported options. Where not indicated otherwise option val
     navigateWithinSoftTabs: boolean (defaults to false)
     enableMultiselect: boolean   # on by default
     enableAutoIndent: boolean
+    enableKeyboardAccessibility: boolean
  
 ### renderer options
  
@@ -61,6 +62,7 @@ here's a list of all supported options. Where not indicated otherwise option val
     customScrollbar: boolean
     hasCssTransforms: boolean
     maxPixelHeight: number
+    useSvgGutterIcons: boolean
  
 
 ### mouseHandler options
