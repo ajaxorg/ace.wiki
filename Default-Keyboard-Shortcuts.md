@@ -92,13 +92,15 @@
 | Ctrl-K                         | Command-G                      | Find next                      |
 | Ctrl-Shift-K                   | Command-Shift-G                | Find previous                  |
 | Ctrl-Alt-K                     | Ctrl-Alt-G                     | Find all                       |
-
+| Alt-K                          | Ctrl-G                         | Select or find next            |
+| Alt-Shift-K                    | Ctrl-Shift-G                   | Select or find previous        |
 
 ## Folding
 
 | Windows/Linux                  | Mac                            | Action                         |
 |:-------------------------------|:-------------------------------|:-------------------------------|
 | F2                             | F2                             | Toggle fold widget             |
+| Alt-F2                         | Alt-F2                         | Toggle parent fold widget      |
 | Alt-L, Ctrl-F1                 | Command-Option-L, Command-F1   | Fold selection                 |
 | Alt-Shift-L, Ctrl-Shift-F1     | Command-Option-Shift-L, Command-Shift-F1| Unfold                         |
 | Alt-0                          | Command-Option-0               | Fold all                       |
@@ -112,7 +114,9 @@
 |:-------------------------------|:-------------------------------|:-------------------------------|
 | F1                             | F1                             | Open command palette           |
 | Tab                            | Tab                            | Indent                         |
+| Ctrl-]                         | Ctrl-]                         | Block indent                   |
 | Shift-Tab                      | Shift-Tab                      | Outdent                        |
+| Ctrl-[                         | Ctrl-[                         | Block outdent                  |
 | Ctrl-Z                         | Command-Z                      | Undo                           |
 | Ctrl-Shift-Z, Ctrl-Y           | Command-Shift-Z, Command-Y     | Redo                           |
 | Ctrl-,                         | Command-,                      | Show the settings menu         |
