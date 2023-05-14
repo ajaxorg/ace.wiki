@@ -147,11 +147,11 @@
 <details>
   <summary>Ignore this</summary>
   
-  Run the following in browser console of kitchen-sink.html
+  Run the following in browser console of kitchen-sink.html, replace the inline comment with the existing markdown of this page.
 
   ```js
   function parse(value) {
-    var lines = existing.split("\n")
+    var lines = value.split("\n")
     var groups = Object.create(null)
     var currentGroup
     lines.forEach(x => {
@@ -201,7 +201,7 @@ function stringify(groups) {
 }
 
 
-groups =  parse(existing)
+groups =  parse(/* replace with existing MD */)
 
 var old = {}
 for (var i in groups) {
